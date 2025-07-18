@@ -1,0 +1,25 @@
+@use "../../styles/variables" as *;
+
+.footer {
+  display: flex;
+  padding: 15px 0px 20px 0px;
+  background: linear-gradient(to top, rgba(255, 60, 0, 0.192), $color-primary);
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.footer-icon {
+  width: 30px;
+  height: 30px;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+@media (min-width: $tablet-max) {
+  .footer-icon {
+    width: 35px;
+    height: 35px;
+  }
+}

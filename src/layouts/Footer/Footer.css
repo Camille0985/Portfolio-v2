@@ -1,0 +1,23 @@
+.footer {
+  display: flex;
+  padding: 15px 0px 20px 0px;
+  background: linear-gradient(to top, rgba(255, 60, 0, 0.192), #f5f5f5);
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-icon {
+  width: 30px;
+  height: 30px;
+}
+.footer-icon:hover {
+  cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  .footer-icon {
+    width: 35px;
+    height: 35px;
+  }
+}/*# sourceMappingURL=Footer.css.map */

@@ -1,0 +1,43 @@
+@use "../../styles/variables" as *;
+
+.banner {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid $color-secondary;
+  
+  margin-top: 60px;
+  padding: 30px 15px;
+  gap: 20px;
+  text-align: justify;
+  
+  h1 {
+    text-align: center;
+    font-size: 30px;
+  }
+  .banner__txt {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: $mobile-max) {
+  .banner {
+    text-align: center;
+
+    h1 {
+      font-size: 36px;
+    }
+  }
+}
+
+@media screen and (min-width: $tablet-max) {
+  .banner {
+    text-align: center;
+    
+    h1 {
+      font-size: 44px;
+    }
+    .banner__txt {
+      font-size: 18px;
+    }
+  }  
+}

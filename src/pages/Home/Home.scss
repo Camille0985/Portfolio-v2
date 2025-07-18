@@ -1,0 +1,11 @@
+@use "../../styles/variables" as *;
+
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  .home-content {
+    width: 100%;
+  }
+}

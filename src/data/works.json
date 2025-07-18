@@ -1,0 +1,63 @@
+[
+        {
+            "title": "Vitrine d'un site de réservation d'hôtels",
+            "cover": "/images/gallery/booki.webp",
+            "description": "Création d’une page d’accueil responsive, optimisée pour différents écrans, avec une structure HTML sémantique.",
+            "skills": [
+                "HTML",
+                "CSS",
+                "Responsive Design"
+            ],
+            "link" : "https://booki-topaz.vercel.app/",
+            "git" : "https://github.com/Camille0985/Booki"
+        },
+        {
+            "title": "Application de location d'hébergements",
+            "cover": "/images/gallery/kasa.webp",
+            "description": "Conception du front-end de l'application, gestion de la navigation entre les différentes pages et réalisation d’animations sur des éléments interactifs.",
+            "skills" : [
+                "React",
+                "React Router DOM",
+                "SCSS"
+            ],
+            "link" : "https://kasa-amber.vercel.app/",
+            "git" : "https://github.com/Camille0985/Kasa"
+        },
+        {
+            "title": "Création d'un site web pour une architecte",
+            "cover": "/images/gallery/sophie-bluel-architecte.webp",
+            "description": "Création d'une interface web dynamique permettant la connexion et l’authentification d’un utilisateur via des appels API. Gestion des données côté client et affichage conditionnel en fonction de l'état de l'utilisateur.",
+            "skills" : [
+                "JavaScript",
+                "Fetch API",
+                "DOM manipulation",
+                "Token storage"
+            ],
+            "git" : "https://github.com/Camille0985/Sophie-Bruel-Architecte"
+        },
+        {
+            "title": "Mise en place du Back End pour une librairie",
+            "cover": "/images/gallery/mon-vieux-grimoire.webp",
+            "description": "Développement complet d'une API REST sécurisée avec authentification chiffrée, jetons d’accès et stockage distant. Gestion optimisée des fichiers médias selon les principes du Green Code.",
+            "skills" : [
+                "Node.js",
+                "Express",
+                "JWT",
+                "Bcrypt",
+                "MongoDB Atlas",
+                "Multer",
+                "Sharp"
+            ],
+            "git" : "https://github.com/Camille0985/Mon-Vieux-Grimoire"
+        },
+        {
+            "title": "Portfolio Personnel",
+            "cover": "/images/gallery/portfolio.webp",
+            "description": "Développement de mon portfolio présentant mes projets et compétences. Architecture modulable, interface responsive mobile-first, optimisation SEO, conformité aux normes d’accessibilité, et formulaire de contact intégré via un service externe.",
+            "skills" : [
+                "UI/UX",
+                "React",
+                "SCSS"
+            ]
+        }
+    ]

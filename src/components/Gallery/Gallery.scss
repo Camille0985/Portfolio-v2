@@ -1,0 +1,132 @@
+@use "../../styles/variables" as *;
+
+#Works {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  color: $color-secondary;
+  
+  .gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 1rem;
+    border-bottom: 1px solid $color-secondary;
+  }  
+}
+
+.gallery__menu {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+  gap: 2rem;
+  
+  .gallery__card {
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+
+    height: auto;
+    padding: 15px;
+    gap: 20px;
+    box-sizing: border-box;
+
+    border: 1px solid rgb(201, 201, 201);
+    border-radius: 10px;
+    background-color: $card-color-light;
+
+    .card__container__img {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      overflow: hidden;
+      width: 100%;
+      height: auto;
+
+      img {
+              border-radius: 5px;
+      border: solid 1px rgba(69, 69, 69, 0.192);
+      }
+    }
+  }
+}
+
+.card__description {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+    flex-grow: 1;
+
+  h3 {
+    line-height: 1.1;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  .skills-menu {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    font-size: 14px;
+    margin-top: auto;
+
+    .skills-menu__list {
+      border-radius: 30px;
+      padding: 2.5px 5px;
+      background-color: rgba(255, 60, 0, 0.192);
+    }
+  }
+}
+
+.card__links {
+  display: flex;
+  width: 100%;
+  gap: 10px;
+  font-size: 16px;
+  justify-content: center;
+
+  .project__link {
+    border: 1px solid rgba(255, 60, 0, 0.425);
+    padding: 5px 10px;
+    border-radius: 5px;
+    box-shadow: inherit;
+    transition: box-shadow 0.3s ease-in-out;
+        
+    &:hover {
+      z-index: 1;
+      box-shadow: 0 0 10px rgba(255, 60, 0, 0.192);
+      transition: box-shadow 0.3s ease-in-out;
+    }
+  }
+}
+
+@media (min-width: $tablet-max) {
+  #Works .gallery {
+    padding: 4rem 1rem;
+    
+  }
+
+  .gallery__card {
+    height: 40rem;
+    padding: 30px;
+  }
+
+  .gallery__menu {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+  .skills-menu .skills-menu__list {
+    padding: 5px 10px;
+  }
+    .card__links {
+      justify-content: flex-end;
+    }
+  }
+}
