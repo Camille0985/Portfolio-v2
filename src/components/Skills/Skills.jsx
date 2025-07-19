@@ -21,7 +21,7 @@ const Skills = () => {
                     ) : (
                       <img
                         src={icon}
-                        alt={name}
+                        alt=""
                       />
                     )}
                   </div>
