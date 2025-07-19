@@ -18,16 +18,14 @@ const Contact = () => {
           method="POST"
         >
           <input type="text" name="_honey" style={{ display: "none" }} />
-          <input type="text" name="Nom" placeholder="Votre nom" required />
-          <input
-            type="email"
-            name="Email"
-            placeholder="Votre e-mail"
-            required
-          />
-          <textarea name="Message" placeholder="Votre message"></textarea>
+          <label htmlFor="name"></label>
+          <input type="text" id="name" name="name" placeholder="Votre nom" required />
+          <label htmlFor="email"></label>
+          <input type="email" id="email" name="Email" placeholder="Votre e-mail" required />
+          <label htmlFor="message"></label>
+          <textarea id="message" name="message" placeholder="Votre message"></textarea>
           <div className="form__button-container">
-            <button type="submit">Envoyer</button>
+            <button type="submit" aria-label="Envoyer le message">Envoyer</button>
           </div>
         </form>
       </div>
