@@ -11,14 +11,14 @@ const Home = () => {
   return (
     <div className="home">
       <Header />
-      <div className="container home-content">
+      <main className="container home-content">
         <Banner />
         <Suspense>
           <Skills />
+          <Gallery />
         </Suspense>
-      </div>
+      </main>
       <Suspense>
-        <Gallery />
         <Contact />
         <Footer />
       </Suspense>

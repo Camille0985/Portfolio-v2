@@ -4,7 +4,7 @@ import "./Gallery.scss";
 const Gallery = () => {
   return (
     <section id="Works">
-      <div className="container gallery">
+      <div className="gallery">
         <h2>Projets</h2>
         <ul className="gallery__menu">
           {Works.map(({ cover, title, description, skills, link, git }, index) => (
