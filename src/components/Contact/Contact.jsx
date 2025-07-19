@@ -17,13 +17,9 @@ const Contact = () => {
           action="https://formsubmit.co/4a9756e7ff46a02974b08c8f7db4b0bd"
           method="POST"
         >
-          <input type="text" name="_honey" style={{ display: "none" }} />
-          <label htmlFor="name"></label>
-          <input type="text" id="name" name="name" placeholder="Votre nom" required />
-          <label htmlFor="email"></label>
-          <input type="email" id="email" name="Email" placeholder="Votre e-mail" required />
-          <label htmlFor="message"></label>
-          <textarea id="message" name="message" placeholder="Votre message"></textarea>
+          <input type="text" id="name" name="name" aria-label="Votre nom" placeholder="Votre nom" required />
+          <input type="email" id="email" name="Email" aria-label="Votre e-mail" placeholder="Votre e-mail" required />
+          <textarea id="message" name="message" aria-label="Votre message" placeholder="Votre message"></textarea>
           <div className="form__button-container">
             <button type="submit" aria-label="Envoyer le message">Envoyer</button>
           </div>
