@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import "../styles/legal.css";
+import "../styles/StaticPage.css";
 
 const MentionsLegales = () => {
   return (
