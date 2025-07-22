@@ -43,7 +43,7 @@ h1, h2, h3, h4 {
 }
 
 h2 {
-  font-size: 36px;
+  font-size: 26px;
   margin-bottom: 30px;
 }
 
@@ -75,4 +75,10 @@ a {
 table {
   border-collapse: collapse;
   border-spacing: 0;
+}
+
+@media (min-width: 768px) {
+  h2 {
+    font-size: 36px;
+  }
 }/*# sourceMappingURL=main.css.map */
